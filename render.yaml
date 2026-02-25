@@ -1,8 +1,8 @@
-services:
-  # Database
-  - type: psql
-    name: hrmslite-db
+databases:
+  - name: hrmslite-db
     plan: free
+
+services:
 
   # Backend (Django)
   - type: web
